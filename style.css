@@ -1,0 +1,108 @@
+
+html,body{
+    background-color: ghostwhite;
+    margin: 0px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+#background-image {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    text-align: center;
+    border-bottom: 2px solid #16C716;
+    overflow: hidden;
+    width: auto;
+    float: top;
+    margin: auto;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.9);
+}
+.navbar img{
+    float: start;
+    margin-bottom: -60px;
+    width: 70%;
+    height: auto;
+}
+.navbar a {
+    text-shadow: 1px 1px black;
+    border-top: 1px solid #16C716;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 2.0em;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+.navbar a:hover {
+    background-color: white;
+    color: #16C716; /*color: #1E90FF;*/
+}
+.main{
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 17em;
+    z-index: 0;
+}
+.content{
+    width: 10%;
+    margin: auto;
+}
+#quote{
+     font-size: 2.7em;
+     font-style: italic;
+     color: ghostwhite;
+     text-align: center;
+ }
+#main-body{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5em;
+}
+#main-body-left {
+    width: 50%;
+    float:left;
+}
+#main-body-right {
+    text-align: right;
+    width: 45%;
+    float:right;
+    color: ghostwhite;
+}
+#main-body a{
+    color: dimgrey;
+}
+#main-body a:hover{
+    color: #1E90FF;
+}
+#main-body p{
+    font-family:"Celtic Normal",sans-serif;
+    text-align: left;
+    color:ghostwhite;
+}
+h1{
+    color: #16C716;
+}
+table{
+    border: 1px solid #16C716;
+}
+tr{
+    border: 3px solid #16C716;
+}
+td{
+    color: ghostwhite;
+    text-align: center;
+    font-size: 0.8em;
+}
+thead{
+    color: #16C716;
+}
+form{
+    color: ghostwhite;
+}
