@@ -1,7 +1,9 @@
-
+<div class="teanga">
+    <a href="../Bearla/Home.php" class="teanga">English</a>
+</div>
 <div class="navbar">
 <!--    made on 'Logopit Plus' from google play store-->
-    <img src="media/corp.png"><br>
+    <img src="../media/corp.png"><br>
     <a href="Baile.php">Baile</a>
     <a href="Faoi.php">Faoi</a>
     <a href="Ranganna.php">Ranganna</a>

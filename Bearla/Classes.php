@@ -2,27 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ranganna</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Classes</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<img src="media/culra3.jpg" id="background-image" alt="iontach"/>
+<img src="../media/culra3.jpg" id="background-image" alt="iontach"/>
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
-        "Roghnaigh do rang <br>
-        agus bi linn"
+        "Choose a class that <br>
+        that suits you"
     </p>
 
     <div id="main-body">
         <div id="main-body-left">
-            <h1>Ranganna</h1>
+            <h1>Classes</h1>
             <table>
                 <thead>
                 <tr>
-                    <th>Rang</th>
-                    <th>Cathain</th>
-                    <th>Costas</th>
+                    <th>Class</th>
+                    <th>When</th>
+                    <th>Cost</th>
                     <th>Book</th>
                 </tr>
                 </thead>
@@ -32,45 +32,43 @@
                     <td>eolas</td>
                     <td>eolas</td>
                     <td>eolas</td>
-                    <td>eolas</td>
+                    <td><a href="">eolas</a></td>
                 </tr>
                 <tr>
                     <td>eolas</td>
                     <td>eolas</td>
                     <td>eolas</td>
-                    <td>eolas</td>
+                    <td><a href="">eolas</a></td>
                 </tr>
                 <tr>
                     <td>eolas</td>
                     <td>eolas</td>
                     <td>eolas</td>
-                    <td>eolas</td>
+                    <td><a href="">eolas</a></td>
                 </tr>
                 <tr>
                     <td>eolas</td>
                     <td>eolas</td>
                     <td>eolas</td>
-                    <td>eolas</td>
+                    <td><a href="">eolas</a></td>
                 </tr>
                 <tr>
                     <td>eolas</td>
                     <td>eolas</td>
                     <td>eolas</td>
-                    <td>eolas</td>
+                    <td><a href="">eolas</a></td>
                 </tr>
-
 
                 </tbody>
             </table>
             <br><br>
         </div>
         <div id="main-body-right">
-            <h1>Lascainne inniu</h1>
-            <ul>
-                <li>20% as na <a href="Ranganna.php">Ranganna</a></li>
-            </ul>
-            <h2><a href="Balraiocht.php">Balriocht</a> </h2>
+            <?php include('Deals.php');?>
         </div>
+    </div>
+    <div id="bottom">
+        <?php include('footer.php');?>
     </div>
 </div>
 

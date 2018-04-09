@@ -4,6 +4,21 @@ html,body{
     margin: 0px;
     font-family: "Arial Black", Gadget, sans-serif;
 }
+.teanga{
+    position: fixed;
+    left: 92%;
+    z-index: 1;
+    width: 100%;
+    border-radius: 0px 0px 0px 5px;
+}
+.teanga a{
+    text-align: left;
+    text-decoration: none;
+    color: ghostwhite;
+    padding-left: 3px;
+    padding-top: 5px;
+    background-color: rgba(22, 199, 22, 0.8);
+}
 #background-image {
     position: fixed;
     z-index: -1;
@@ -17,19 +32,17 @@ html,body{
     width: auto;
     float: top;
     margin: auto;
-    margin-top: 10px;
     z-index: 1;
     background-color: rgba(0,0,0,0.9);
 }
 .navbar img{
     float: start;
-    margin-bottom: -60px;
+    margin-bottom: -80px;
     width: 70%;
     height: auto;
 }
 .navbar a {
     text-shadow: 1px 1px black;
-    border-top: 1px solid #16C716;
     color: white;
     text-align: center;
     padding: 10px;
@@ -43,6 +56,7 @@ html,body{
 }
 .main{
     position: absolute;
+    border-top: 1px solid #16C716;
     background-color: rgba(0,0,0,0.9);
     width: 100%;
     height: auto;
@@ -64,10 +78,13 @@ html,body{
     margin-left: 15%;
     margin-right: 15%;
     font-size: 1.5em;
+    margin-bottom: -30px;
+    text-align: center;
 }
 #main-body-left {
     width: 50%;
     float:left;
+    text-align: left;
 }
 #main-body-right {
     text-align: right;
@@ -103,6 +120,35 @@ td{
 thead{
     color: #16C716;
 }
-form{
+#membershipForm{
+    border: 1px solid #16C716;
     color: ghostwhite;
+    text-align: left;
+    padding: 20px 0px 20px 20px;
+}
+#Join{
+    font-size: medium;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: center;
+    color: #16C716;
+    width: 95%;
+    height: 30px;
+}
+#bottom{
+    float: bottom;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid gray;
+    clear: both;
+}
+#footer a{
+    font-size: 2em;
+}
+#footer{
+    text-align: center;
+    font-family: sans-serif;
+    float: bottom;
+    color: gray;
+    background-color: rgba(0,0,0,0.9);
 }

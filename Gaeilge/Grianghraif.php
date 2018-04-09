@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Baile</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="corp.js"></script>
+    <title>Title</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
-<img src="media/culra2.jpg" id="background-image" alt="iontach"/>
+<img src="../media/culra2.jpg" id="background-image" alt="iontach"/>
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
@@ -35,7 +34,9 @@
             <h2><a href="Balraiocht.php">Balriocht</a> </h2>
         </div>
     </div>
-
+    <div id="bottom">
+        <?php include('bun.php');?>
+    </div>
 </div>
 </body>
 </html>

@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Baile</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../corp.js"></script>
 </head>
 <body>
 
-<img src="media/culra2.jpg" id="background-image" alt="iontach"/>
+<img src="../media/culra2.jpg" id="background-image" alt="iontach"/>
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
@@ -26,15 +27,13 @@
             <br/>
         </div>
         <div id="main-body-right">
-            <h1>Lascainne inniu</h1>
-            <ul>
-                <li>10% as an <a href="Balraiocht.php">Sportlann</a></li>
-                <li>20% as na <a href="Ranganna.php">Ranganna</a></li>
-            </ul>
-            <h2><a href="Balraiocht.php">Balriocht</a> </h2>
+            <?php include('uaireanta.php');?>
+            <?php include('Laisceanna.php');?>
         </div>
     </div>
-
+    <div id="bottom">
+        <?php include('bun.php');?>
+    </div>
 </div>
 </body>
 </html>

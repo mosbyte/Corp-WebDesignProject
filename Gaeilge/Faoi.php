@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Faoi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<img src="media/culra4.jpg" id="background-image" alt="iontach"/>
+<img src="../media/culra4.jpg" id="background-image" alt="iontach"/>
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
@@ -27,13 +27,11 @@
             <br/>
         </div>
         <div id="main-body-right">
-            <h1>Oscailte</h1>
-            <ul>
-                <li>07.00-11.00<br>Luain - Aoine</li><br>
-                <li>08.00-10.30<br>Gach Satharn</li>
-            </ul>
-            <h2><a href="Balraiocht.php">Balriocht</a> </h2>
+            <?php include('uaireanta.php');?>
         </div>
+    </div>
+    <div id="bottom">
+        <?php include('bun.php');?>
     </div>
 </div>
 </body>
