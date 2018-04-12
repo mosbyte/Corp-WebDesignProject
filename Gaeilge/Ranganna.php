@@ -29,16 +29,16 @@
                 <tbody>
 
                 <tr>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td><a href="">eolas</a></td>
+                    <td>Pilates</td>
+                    <td>Luain 6-8</td>
+                    <td>5 euro</td>
+                    <td><a href="">Bookail</a></td>
                 </tr>
                 <tr>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td><a href="">eolas</a></td>
+                    <td>Rothaiocht</td>
+                    <td>Mairt & Aoine 8.00-9.30</td>
+                    <td>10 euro</td>
+                    <td><a href="">Bookail</a></td>
                 </tr>
                 <tr>
                     <td>eolas</td>

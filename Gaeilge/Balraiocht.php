@@ -11,7 +11,8 @@
 <div class="main">
     <p id="quote">
         "Bi mar bhall rialta agus <br>
-        cuid de phobail 'CORP' "
+        cuid de phobail 'CORP' i<br>
+        gcomhar 35 euro an mi"
     </p>
 
     <div id="main-body">
