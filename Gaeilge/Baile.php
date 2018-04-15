@@ -12,15 +12,15 @@
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
-        "Indiadh a cheile a thogtar <br>
-        na Caislean, aithnitear diograis"
+        "I ndiaidh a chéile a thógtar <br>
+        na Caisleáin, Aithnítear díograis"
     </p>
 
     <div id="main-body">
         <div id="main-body-left">
             <h1>Fáilte go Corp</h1>
             <p>
-                Is sportlann Gaelach muidne, oiriunach don te ata diograsach.
+                Is sportlann Gaelach sa Chabhán muidne, oiriunach don te ata diograsach.
                 Bi linn chun do chuid aclaiochta a fheabhsu 's beidh tu comh follain le breac.
                 Is iomai an rang ata againn a bhainfea sult as...Breathnaigh orthu <a href="Ranganna.php">Anseo</a>
             </p>

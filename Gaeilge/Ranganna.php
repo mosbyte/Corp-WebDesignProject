@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ranganna</title>
     <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../corp.js"></script>
 </head>
 <body>
 <img src="../media/culra3.jpg" id="background-image" alt="iontach"/>
@@ -11,7 +12,7 @@
 <div class="main">
     <p id="quote">
         "Roghnaigh do rang <br>
-        agus bi linn"
+        agus bí linn"
     </p>
 
     <div id="main-body">
@@ -30,33 +31,33 @@
 
                 <tr>
                     <td>Pilates</td>
-                    <td>Luain 6-8</td>
+                    <td>Luain 6pm-8pm</td>
                     <td>5 euro</td>
-                    <td><a href="">Bookail</a></td>
+                    <td><a href="javascript:bookRang('Pilates')">Bookáil</a></td>
                 </tr>
                 <tr>
-                    <td>Rothaiocht</td>
-                    <td>Mairt & Aoine 8.00-9.30</td>
+                    <td>Rothaíocht</td>
+                    <td>Máirt & Aoine 8.00am-9.30am</td>
                     <td>10 euro</td>
-                    <td><a href="">Bookail</a></td>
+                    <td><a href="javascript:bookRang('Rothaiocht')">Bookáil</a></td>
                 </tr>
                 <tr>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td><a href="">eolas</a></td>
+                    <td>Dornaclaíocht</td>
+                    <td>Ceadaoin 3pm-5pm</td>
+                    <td>7 euro</td>
+                    <td><a href="javascript:bookRang('Dornaclaiocht')">Bookáil</a></td>
                 </tr>
                 <tr>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td><a href="">eolas</a></td>
+                    <td>Ciorclán</td>
+                    <td>Gach lá 12pm-2pm</td>
+                    <td>3 euro</td>
+                    <td><a href="javascript:bookRang('Ciorclan')">Bookáil</a></td>
                 </tr>
                 <tr>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td>eolas</td>
-                    <td><a href="">eolas</a></td>
+                    <td>Zumba</td>
+                    <td>Deardaoin 7.30pm-9.30pm</td>
+                    <td>8 euro</td>
+                    <td><a href="javascript:bookRang('Zumba')">Bookáil</a></td>
                 </tr>
 
 

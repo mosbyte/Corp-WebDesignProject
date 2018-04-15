@@ -11,8 +11,8 @@
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
-        "Dean teagmhail linn am ar bith <br>
-        ma at eolas uait"
+        "Déan teagmháil linn má tá<br>
+         eolas ar bith uait"
     </p>
 
     <div id="main-body">

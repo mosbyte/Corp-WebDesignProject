@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <title>Balraiocht</title>
     <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="../corp.js"></script>
 </head>
 <body>
 <img src="../media/culra1.jpg" id="background-image" alt="iontach"/>
 <?php include('ceann.php');?>
 <div class="main">
     <p id="quote">
-        "Bi mar bhall rialta agus <br>
+        "Bí mar bhall rialta agus <br>
         cuid de phobail 'CORP' i<br>
-        gcomhar 35 euro an mi"
+        gcomhar 35 euro an mí"
     </p>
 
     <div id="main-body">
         <div id="main-body-left">
-            <h1>Lion an Foirm</h1>
-            <form name="q2" id="membershipForm" method="post">
+            <h1>Líon an foirm:</h1>
+            <form name="memForm" id="membershipForm" method="post">
                 Ainm:
-                <input type="text" value="cead ainm"/>
-                <input type="text" value="sloinne"/><br/>
+                <input type="text" name="fn" value="Céad Ainm"/>
+                <input type="text" name="sn" value="Sloinne"/><br/>
+                RPhost:
+                <input type="text" name="email"><br>
                 Aois:
-                <select>
+                <select name="age">
                     <option value="a">18-24</option>
                     <option value="b">25-55</option>
                     <option value="c">55+</option>
@@ -33,15 +36,17 @@
                 <input type="radio" name="continue" checked>Fear
                 <input type="radio" name="continue" >Bean
                 <br>
-                Meid Miosa:
-                <input type="number"><br>
-                Muinin sa Gym:
-                0<input type="range">100<br>
-                Cod laisceanna:
-                <input type="text">
+                Méid Míosa:
+                <input type="number" name="duration"><br>
+                Múinín sa Gym:
+                0<input type="range" name="confidence">100<br>
+                Cód laisceanna:
+                <input type="text" name="discount"><br>
 
-                <br/><button type="submit">Glac</button>
+                <button id="Join">Glac</button>
+                <script>formBaill()</script>
             </form>
+
             <br>
         </div>
         <div id="main-body-right">

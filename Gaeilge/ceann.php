@@ -1,5 +1,5 @@
 <div class="teanga">
-    <a href="../Bearla/Home.php" class="teanga">English</a>
+    <a href="../English/Home.php" class="teanga">English</a>
 </div>
 <div class="navbar">
 <!--    made on 'Logopit Plus' from google play store-->
@@ -7,7 +7,7 @@
     <a href="Baile.php">Baile</a>
     <a href="Faoi.php">Faoi</a>
     <a href="Ranganna.php">Ranganna</a>
-    <a href="Balraiocht.php">Balraiocht</a>
-    <a href="Grianghraif.php">Grianghraif</a>
+    <a href="Balraiocht.php">Balraíocht</a>
+    <a href="Aiseanna.php">Áiseanna</a>
     <a href="Teagmhail.php">Teagmháil</a>
 </div>
