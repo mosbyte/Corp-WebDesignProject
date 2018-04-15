@@ -10,3 +10,24 @@ Website is available in both Irish and English
 
 Images used have CC0 licences or public domain licences
 Logo designed by Tomas Mc Phillips
+
+Tech Spec and design decisions:
+
+*Big main nav bar is present in all webpages with the logo clearly visible to inforce brand recognition. This is added as a header
+using php include.(z-index 1)
+
+*Fixed image taking up full size of screen lies behind and is visible through a letterbox and a opache main div 
+  This allows for quick loading times as it is just one image and it has good impact(z-index -1)
+  
+*The main div comprises of a quote at the top of each page which is different promoting the gym further. After the quote the 
+page is divided into two main parts in the main display div. The components are left and right containers, columns that extend
+infinitely depending on content in them and all content is scaled to the width of the div. The opening times and promotions are added 
+as php modules so they can be changed on all webpages with ease and new modules can be added to a div with ease.(z-index 0)
+
+All style sheets and script sheets are external to the HTML. Javascript is used for booking classes and getting membership and there is
+a working discount code 'CORP2018' which gives 10% of membership.
+
+Footer is an added php module.
+
+
+
