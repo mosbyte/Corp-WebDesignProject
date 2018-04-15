@@ -20,9 +20,9 @@
         <div id="main-body-left">
             <h1>Fáilte go Corp</h1>
             <p>
-                Is sportlann Gaelach sa Chabhán muidne, oiriunach don te ata diograsach.
-                Bi linn chun do chuid aclaiochta a fheabhsu 's beidh tu comh follain le breac.
-                Is iomai an rang ata againn a bhainfea sult as...Breathnaigh orthu <a href="Ranganna.php">Anseo</a>
+                Is spórtlann Gaelach sa Chabhán muidne, oiriúnach don té ata díograsach.
+                Bi linn chun do chuid aclaíochta a fheabhsú 's beidh tú comh folláin le breac.
+                Is iomaí an rang atá againn a bhainfeá sult as...Breathnaigh orthu <a href="Ranganna.php">Anseo</a>
             </p>
             <br>
             <iframe width=100% height="300em" src="https://www.youtube.com/embed/9c5bg-BwSgI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
