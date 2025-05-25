@@ -1,165 +1,265 @@
-
-html,body{
-    background-color: rgba(0,0,0,0.9);
-    margin: 0px;
-    font-family: "Arial Black", Gadget, sans-serif;
+html,
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0px;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
-.teanga{
-    position: fixed;
-    left: 92%;
-    z-index: 1;
-    width: 100%;
-    border-radius: 0px 0px 0px 5px;
+.teanga {
+  position: fixed;
+  left: 92%;
+  z-index: 1;
+  width: 100%;
+  border-radius: 0px 0px 0px 5px;
 }
-.teanga a{
-    text-align: left;
-    text-decoration: none;
-    color: ghostwhite;
-    padding-left: 3px;
-    padding-top: 5px;
-    background-color: rgba(22, 199, 22, 0.8);
+.teanga a {
+  text-align: left;
+  text-decoration: none;
+  color: ghostwhite;
+  padding-left: 3px;
+  padding-top: 5px;
+  background-color: rgba(22, 199, 22, 0.8);
 }
 #background-image {
-    position: fixed;
-    z-index: -1;
-    height: auto;
-    width: 100%;
+  position: fixed;
+  z-index: -1;
+  height: auto;
+  width: 100%;
 }
-.navbar{
-    text-align: center;
-    border-bottom: 2px solid #16C716;
-    overflow: hidden;
-    width: auto;
-    float: top;
-    margin: auto;
-    z-index: 1;
-    background-color: rgba(0,0,0,0.9);
+.navbar {
+  text-align: center;
+  border-bottom: 2px solid #16c716;
+  overflow: hidden;
+  width: auto;
+  float: top;
+  margin: auto;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.9);
 }
-.navbar img{
-    float: start;
-    margin-bottom: -80px;
-    width: 70%;
-    height: auto;
+.navbar img {
+  float: start;
+  margin-bottom: -80px;
+  width: 70%;
+  height: auto;
 }
 .navbar a {
-    text-shadow: 1px 1px black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 2.0em;
-    font-family: "Arial Black", Gadget, sans-serif;
+  text-shadow: 1px 1px black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: "Arial Black", Gadget, sans-serif;
 }
 .navbar a:hover {
-    background-color: white;
-    color: #16C716;
+  background-color: white;
+  color: #16c716;
 }
-.main{
-    position: absolute;
-    border-top: 1px solid #16C716;
-    background-color: rgba(0,0,0,0.9);
-    width: 100%;
-    height: auto;
-    margin: auto;
-    margin-bottom: 0;
-    margin-top: 17em;
-    z-index: 0;
+.main {
+  position: absolute;
+  border-top: 1px solid #16c716;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 0;
+  margin-top: 17em;
+  z-index: 0;
 }
-.content{
-    width: 10%;
-    margin: auto;
+.content {
+  width: 10%;
+  margin: auto;
 }
-#quote{
-     font-size: 2.7em;
-     font-style: italic;
-     color: ghostwhite;
-     text-align: center;
- }
-#main-body{
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 1.5em;
-    margin-bottom: -30px;
-    text-align: center;
+#quote {
+  font-size: 2.7em;
+  font-style: italic;
+  color: ghostwhite;
+  text-align: center;
+}
+#main-body {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.5em;
+  margin-bottom: -30px;
+  text-align: center;
 }
 #main-body-left {
-    width: 50%;
-    float:left;
-    text-align: left;
+  width: 50%;
+  float: left;
+  text-align: left;
 }
 #main-body-right {
-    text-align: right;
-    width: 45%;
-    float:right;
-    color: ghostwhite;
+  text-align: right;
+  width: 45%;
+  float: right;
+  color: ghostwhite;
 }
-#main-body a{
-    color: lightsteelblue;
+#main-body a {
+  color: lightsteelblue;
 }
-#main-body a:hover{
-    color: #1E90FF;
+#main-body a:hover {
+  color: #1e90ff;
 }
-#main-body p{
-    font-family:"Celtic Normal",sans-serif;
-    color:ghostwhite;
+#main-body p {
+  font-family: "Celtic Normal", sans-serif;
+  color: ghostwhite;
 }
-h1{
-    color: #16C716;
+h1 {
+  color: #16c716;
 }
-table{
-    border: 1px solid #16C716;
-    border-collapse: collapse;
+table {
+  border: 1px solid #16c716;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+th {
+  border: 1px solid #16c716;
+}
+td {
+  color: ghostwhite;
+  font-size: 0.8em;
+  border: 1px solid #16c716;
+}
+thead {
+  color: #16c716;
+}
+#membershipForm {
+  border: 1px solid #16c716;
+  color: ghostwhite;
+  text-align: left;
+  padding: 20px 0px 20px 20px;
+}
+#Join {
+  font-size: medium;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  color: #16c716;
+  width: 95%;
+  height: 30px;
+}
+#facility {
+  width: 100%;
+  height: 10em;
+}
+#aiseanna {
+  text-align: center;
+}
+#bottom {
+  float: bottom;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid gray;
+  clear: both;
+}
+#footer a {
+  font-size: 2em;
+}
+#footer {
+  text-align: center;
+  font-family: sans-serif;
+  float: bottom;
+  color: gray;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 0;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .teanga {
+    left: 85%;
+  }
+
+  .navbar img {
     width: 100%;
-    text-align: center;
-}
-th{
-    border: 1px solid #16C716;
-}
-td{
-    color: ghostwhite;
-    font-size: 0.8em;
-    border: 1px solid #16C716;
-}
-thead{
-    color: #16C716;
-}
-#membershipForm{
-    border: 1px solid #16C716;
-    color: ghostwhite;
-    text-align: left;
-    padding: 20px 0px 20px 20px;
-}
-#Join{
-    font-size: medium;
-    font-family: "Arial Black", Gadget, sans-serif;
-    text-align: center;
-    color: #16C716;
-    width: 95%;
-    height: 30px;
-}
-#facility{
+    margin-bottom: -40px;
+  }
+
+  .navbar a {
+    font-size: 1.2em;
+    padding: 5px;
+    display: block;
+  }
+
+  .main {
+    margin-top: 12em;
+  }
+
+  #quote {
+    font-size: 1.8em;
+    padding: 0 10px;
+  }
+
+  #main-body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.2em;
+  }
+
+  #main-body-left,
+  #main-body-right {
     width: 100%;
-    height: 10em;
-}
-#aiseanna{
+    float: none;
     text-align: center;
-}
-#bottom{
-    float: bottom;
-    z-index: 0;
+    margin-bottom: 20px;
+  }
+
+  #main-body-right {
+    text-align: center;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+
+  #membershipForm {
+    padding: 10px;
+  }
+
+  #membershipForm input,
+  #membershipForm select {
     width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #facility {
     height: auto;
-    border-top: 1px solid gray;
-    clear: both;
+    max-height: 200px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
 }
-#footer a{
-    font-size: 2em;
-}
-#footer{
-    text-align: center;
-    font-family: sans-serif;
-    float: bottom;
-    color: gray;
-    background-color: rgba(0,0,0,0.9);
-    margin-bottom: 0;
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .teanga {
+    left: 75%;
+  }
+
+  .navbar a {
+    font-size: 1em;
+  }
+
+  #quote {
+    font-size: 1.5em;
+  }
+
+  #main-body {
+    font-size: 1em;
+  }
+
+  table {
+    font-size: 0.8em;
+  }
+
+  #footer {
+    font-size: 0.8em;
+  }
+
+  #footer a {
+    font-size: 1.5em;
+  }
 }
